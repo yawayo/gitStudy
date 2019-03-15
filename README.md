@@ -1,5 +1,6 @@
 # gitStudy
-khlug git study
+
+* khlug git study
 
 branch
 
@@ -13,4 +14,6 @@ push -f
 
 fetch merge pull
 
-reset
+reset 리베이스 롤백
+
+stach
