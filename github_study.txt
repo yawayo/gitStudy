@@ -1,0 +1,40 @@
+pull request
+
+1. fork
+2. clone, remote
+3. branch
+4. add commit push
+5. pull request 생성
+6 코드리뷰, merge pull request
+7. merge 이후 branch 삭제 및 동기화
+
+1)
+1. 타깃 저장소를 우측 상단 Fork한다.
+2. 자신의 계정에 새로운 저장소가 생긴다.
+
+2) 
+fork로 생성한 본인 계정의 저장소에서 clone 하고 url 복사한다.
+
+3) clone 뜬다
+
+git remote add gitS <별명> https://github.com/seominjjeong/gitStudy.git
+
+
+git remote -v로 확인
+
+git checkout <본인 branch>
+
+편집 진행
+
+add commit
+git push origin <브랜치명>
+
+umi 들어가서 compare & 버튼 클릭
+작성 후
+merge
+git branch -d mj
+
+끄읏!
+
+cf
+https://wayhome25.github.io/git/2017/07/08/git-first-pull-request-story/

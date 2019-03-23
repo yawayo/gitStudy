@@ -2,17 +2,17 @@
 
 * khlug git study
 
-branch
+~~branch~~
 
 pull request
 
-index
+~~index~~
 
 PR
 
 push -f
 
-fetch merge pull
+~~fetch merge pull~~
 
 reset 리베이스 롤백
 
