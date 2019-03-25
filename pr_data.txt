@@ -4,37 +4,41 @@ pull request
 2. clone, remote
 3. branch
 4. add commit push
-5. pull request »ı¼º
-6 ÄÚµå¸®ºä, merge pull request
-7. merge ÀÌÈÄ branch »èÁ¦ ¹× µ¿±âÈ­
+5. pull request ìƒì„±
+6 ì½”ë“œë¦¬ë·°, merge pull request
+7. merge ì´í›„ branch ì‚­ì œ ë° ë™ê¸°í™”
 
 1)
-1. Å¸±ê ÀúÀå¼Ò¸¦ ¿ìÃø »ó´Ü ForkÇÑ´Ù.
-2. ÀÚ½ÅÀÇ °èÁ¤¿¡ »õ·Î¿î ÀúÀå¼Ò°¡ »ı±ä´Ù.
+1. íƒ€ê¹ƒ ì €ì¥ì†Œë¥¼ ìš°ì¸¡ ìƒë‹¨ Forkí•œë‹¤.
+2. ìì‹ ì˜ ê³„ì •ì— ìƒˆë¡œìš´ ì €ì¥ì†Œê°€ ìƒê¸´ë‹¤.
 
 2) 
-fork·Î »ı¼ºÇÑ º»ÀÎ °èÁ¤ÀÇ ÀúÀå¼Ò¿¡¼­ clone ÇÏ°í url º¹»çÇÑ´Ù.
+forkë¡œ ìƒì„±í•œ ë³¸ì¸ ê³„ì •ì˜ ì €ì¥ì†Œì—ì„œ clone í•˜ê³  url ë³µì‚¬í•œë‹¤.
 
-3) clone ¶á´Ù
+3) clone ëœ¬ë‹¤
 
-git remote add gitS <º°¸í> https://github.com/seominjjeong/gitStudy.git
+git remote add gitS <ë³„ëª…> https://github.com/seominjjeong/gitStudy.git
 
 
-git remote -v·Î È®ÀÎ
+git remote -vë¡œ í™•ì¸
 
-git checkout <º»ÀÎ branch>
+4) branch ìƒì„±
+ìì‹ ì˜ ë¡œì»¬ ì»´í“¨í„°ì—ì„œ ì½”ë“œ ì¶”ê°€ëŠ” branchë¥¼ ë§Œë“¤ì–´ì„œ ì§„í–‰
 
-ÆíÁı ÁøÇà
+// checkout & branch ìƒì„±
+git checkout -b <ë³¸ì¸ branch>
+
+í¸ì§‘ ì§„í–‰
 
 add commit
-git push origin <ºê·£Ä¡¸í>
+git push origin <ë¸Œëœì¹˜ëª…>
 
-umi µé¾î°¡¼­ compare & ¹öÆ° Å¬¸¯
-ÀÛ¼º ÈÄ
+umi ë“¤ì–´ê°€ì„œ compare & ë²„íŠ¼ í´ë¦­
+ì‘ì„± í›„
 merge
 git branch -d mj
 
-²ôÀ¿!
+ë„ì!
 
 cf
 https://wayhome25.github.io/git/2017/07/08/git-first-pull-request-story/
